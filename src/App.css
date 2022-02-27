@@ -1,38 +1,303 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Container{
+  width: 100;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Header {
+  width: 100%;
+  height: 60px;
+  background-color: #0B1320;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.HeaderWrapper {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nav{
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.Logo {
+  width: 120px;
+}
+
+.HeroHolder {
+  height: 450px;
+  width: 100%;
+  background-color: #C2B0DA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroWrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Baby{
+  width: 490px;
+  height: 440px;
+  margin-bottom: -15px;
+}
+
+.Left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Heads {
+  font-size: 70px;
+  font-weight: 60px;
+}
+
+.PMan {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.but1{
+  background-color: purple;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px;
+}
+.but2{
+  color: purple;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.hero2wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+.men{
+  height: 300px;
+}
+.right2{
+  padding-right: 150px;
+}
+.com-img{
+  height: 60px;
+}
+.sec-3{
+  width: 100%;
+  background-color: #0B1320;
+  color: white;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+.hero-3-text{
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 25px;
+}
+.hero-content{
+  margin-left: 90px;
+  padding-top: 40px;
+}
+.h-text{
+  line-height: 1.75em;
+  font-size: 80px;
+  padding-bottom: 5px;
+}
+
+#btn-text1{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#btn-text2{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#btn-text3{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#btn-text4{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#btn-text5{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#btn-text6{
+  background-color: grey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px; 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.hero4content{
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 75px;
+}
+.hero-4{
+  width: 100%;
+}
+.textlink{
+  color: red;
+  margin-bottom: 50px;
+}
+.hero2{
+  width: 90%;
+}
+.h-text{
+  font-size: 1.75em;
+}
+.sec-5{
+  width: 100%;
+  background-color: lightgrey;
+  /* display: flex; */
+  
+}
+.custom{
+  height: 50px;
+}
+.run, .price{
+  height: 60px;
+}
+.sec-5-text{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+.sec-5-texta{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.sec-5-texts{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ font-size: 80px;
+}
+.sec6-text{
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 35px ;
+  padding-bottom: 15px;
+  font-size: 35px;
+}
+
+.heroimg{
+  padding-bottom: 55px;
+  margin-bottom: 25px;
+}
+.btn3{
+  text-align: center;
+  background-color: #0B1320;
+  width: 220px;
+  height: 40px;
+  color: white;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.sec-7{
+  background-image: url(./Images/rose.jpg);
+  width: 100%;
+  margin-top: 125px;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+.sec-7-text{
+ text-align: center;
+ color: white;
+ font-weight: 400;
+ font-size: 20px;
+}
+.btn4{
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  margin-top: 20px;
+  color: #0B1320;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+.sec-5-texts{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.sec-6-img{
+  height: 250px;
+}
+.socialmedia{
+  height: 30px;
+}
+.footer1{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 75px;
 }
